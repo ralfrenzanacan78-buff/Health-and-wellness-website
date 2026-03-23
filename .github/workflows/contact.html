@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Eudaimon Foundry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- MOBILE HAMBURGER -->
+    <button class="mobile-hamburger" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- LEFT SIDEBAR NAVIGATION -->
+    <header class="left-sidebar">
+        <div class="sidebar-header">
+            <div class="logo-section">
+                <img src="img/logo.png" alt="Eudaimon Foundry" class="sidebar-logo">
+                <h3>Eudaimon Foundry</h3>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-btn" data-page="home">
+                <i class="fas fa-home"></i><span>Home</span>
+            </a>
+            <a href="about.html" class="nav-btn" data-page="about">
+                <i class="fas fa-info-circle"></i><span>About</span>
+            </a>
+            <a href="services.html" class="nav-btn" data-page="services">
+                <i class="fas fa-cogs"></i><span>Services</span>
+            </a>
+            <a href="programs.html" class="nav-btn" data-page="programs">
+                <i class="fas fa-dumbbell"></i><span>Programs</span>
+            </a>
+            <a href="blog.html" class="nav-btn" data-page="blog">
+                <i class="fas fa-blog"></i><span>Blog</span>
+            </a>
+            <a href="community.html" class="nav-btn" data-page="community">
+                <i class="fas fa-users"></i><span>Community</span>
+            </a>
+        </nav>
+
+        <!-- BOOK NOW BUTTON -->
+        <div class="sidebar-cta">
+            <a href="appointment.html" class="book-now-btn">
+                <i class="fas fa-calendar-check"></i>
+                <span>Book Now</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <!-- CONTACT HERO -->
+        <section class="contact-hero">
+            <div class="hero-container">
+                <h1>Get In Touch</h1>
+                <p>Ready to start your wellness journey? We're here to help.</p>
+                <div class="contact-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-reply-all"></i>
+                        <span>Response within 24h</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-phone"></i>
+                        <span>0931-663-5524</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon-Sun 8AM-8PM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTIONS -->
+        <section class="contact-sections">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <h2>Send Message</h2>
+                        <p>Fill out the form below or email us at <strong>eudaimonmessage@gmail.com</strong></p>
+                        
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Full Name" required>
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" placeholder="0931-663-5524" value="0931-663-5524">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="form-group full">
+                                <textarea id="message" placeholder="Tell us about your wellness goals, questions, or how we can help you..." rows="6" required></textarea>
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <button type="submit" class="form-submit">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Location & Info -->
+                    <div class="contact-info-section">
+                        <h2>Our Location</h2>
+                        
+                        <!-- Google Maps Embed -->
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.123456789!2d120.583333!3d15.216667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDEzJzAwLjQiTiAxMjDCsDM1JzAwLjAiRQ!5e0!3m2!1sen!2sph!4v1699999999999" 
+                                width="100%" 
+                                height="250" 
+                                style="border:0; border-radius: 20px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                        <!-- Contact Details -->
+                        <div class="contact-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Aurea Street Location</h4>
+                                    <p><strong>Aurea Street</strong><br>
+                                    Samsonville Subdivision<br>
+                                    Dau, Mabalacat<br>
+                                    Pampanga, 2010</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Mobile</h4>
+                                    <p><a href="tel:+639316635524">0931-663-5524</a></p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:eudaimonmessage@gmail.com">eudaimonmessage@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Hours</h4>
+                                    <p>Mon-Sun: 8AM-8PM<br>Open 7 Days</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Actions -->
+                        <div class="quick-actions">
+                            <a href="appointment.html" class="quick-btn primary">
+                                <i class="fas fa-calendar-check"></i>
+                                Book Appointment
+                            </a>
+                            <a href="programs.html" class="quick-btn secondary">
+                                <i class="fas fa-dumbbell"></i>
+                                View Programs
+                            </a>
+                            <a href="https://wa.me/639316635524" class="quick-btn whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp Chat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="img/logo.png" alt="Logo">
+                    <p>Aurea Street, Samsonville Subdivision, Dau, Mabalacat, Pampanga</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+639316635524">0931-663-5524</a></li>
+                        <li><a href="mailto:eudaimonmessage@gmail.com">eudaimonmessage@gmail.com</a></li>
+                        <li><a href="contact.html">Visit Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eudaimon Foundry | 0931-663-5524 | Aurea Street, Dau, Mabalacat</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // SIDEBAR FUNCTIONALITY
+        const hamburger = document.querySelector('.mobile-hamburger');
+        const sidebar = document.querySelector('.left-sidebar');
+        
+        hamburger.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+            document.body.classList.toggle('sidebar-open');
+        });
+
+        // CONTACT FORM FUNCTIONALITY
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const submitBtn = this.querySelector('.form-submit');
+            const originalText = submitBtn.innerHTML;
+            
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            submitBtn.disabled = true;
+            
+            setTimeout(() => {
+                alert('Thank you! Your message has been sent to eudaimonmessage@gmail.com. We\'ll reply within 24 hours!');
+                contactForm.reset();
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }, 2000);
+        });
+
+        // Active nav highlighting
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Auto-fill phone number
+        document.getElementById('phone').addEventListener('focus', function() {
+            if (!this.value) {
+                this.value = '0931-663-5524';
+            }
+        });
+    </script>
+</body>
+</html>

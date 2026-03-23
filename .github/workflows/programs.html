@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs | Eudaimon Foundry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- MOBILE HAMBURGER -->
+    <button class="mobile-hamburger" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- LEFT SIDEBAR NAVIGATION -->
+    <header class="left-sidebar">
+        <div class="sidebar-header">
+            <div class="logo-section">
+                <img src="img/logo.png" alt="Eudaimon Foundry" class="sidebar-logo">
+                <h3>Eudaimon Foundry</h3>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-btn" data-page="home">
+                <i class="fas fa-home"></i><span>Home</span>
+            </a>
+            <a href="about.html" class="nav-btn" data-page="about">
+                <i class="fas fa-info-circle"></i><span>About</span>
+            </a>
+            <a href="services.html" class="nav-btn" data-page="services">
+                <i class="fas fa-cogs"></i><span>Services</span>
+            </a>
+            <a href="programs.html" class="nav-btn active" data-page="programs">
+                <i class="fas fa-dumbbell"></i><span>Programs</span>
+            </a>
+            <a href="blog.html" class="nav-btn" data-page="blog">
+                <i class="fas fa-blog"></i><span>Blog</span>
+            </a>
+            <a href="community.html" class="nav-btn" data-page="community">
+                <i class="fas fa-users"></i><span>Community</span>
+            </a>
+        </nav>
+
+        <!-- BOOK NOW BUTTON -->
+        <div class="sidebar-cta">
+            <a href="appointment.html" class="book-now-btn">
+                <i class="fas fa-calendar-check"></i>
+                <span>Book Now</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <!-- HERO SECTION -->
+        <section class="page-hero">
+            <div class="hero-container">
+                <h1>Transformation Programs</h1>
+                <p>Structured 12-week programs with proven results and expert guidance</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span>Success Rate</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span>Graduates</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">12</span>
+                        <span>Weeks</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROGRAMS TABS -->
+        <section class="programs-tabs">
+            <div class="container">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="fitness">Fitness</button>
+                    <button class="tab-btn" data-tab="weightloss">Weight Loss</button>
+                    <button class="tab-btn" data-tab="mental">Mental Wellness</button>
+                    <button class="tab-btn" data-tab="holistic">Holistic</button>
+                </div>
+
+                <!-- Fitness Tab -->
+                <div class="tab-content active" id="fitness">
+                    <div class="programs-grid">
+                        <div class="program-card featured">
+                            <div class="program-badge">Most Popular</div>
+                            <div class="program-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3>Strength Builder</h3>
+                            <p>12-week progressive strength training with personalized programming, weekly check-ins, and nutrition guidance.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check"></i> 3x/week workouts</li>
+                                <li><i class="fas fa-check"></i> Form video analysis</li>
+                                <li><i class="fas fa-check"></i> Nutrition plan</li>
+                            </ul>
+                            <div class="program-price">
+                                <span class="price">$199</span>
+                                <span class="original-price">$299</span>
+                            </div>
+                            <a href="appointment.html" class="program-btn primary">Start Program</a>
+                        </div>
+
+                        <div class="program-card">
+                            <div class="program-icon">
+                                <i class="fas fa-running"></i>
+                            </div>
+                            <h3>Cardio Endurance</h3>
+                            <p>Build stamina and cardiovascular health with interval training and progressive running plans.</p>
+                            <div class="program-price">
+                                <span class="price">$149</span>
+                            </div>
+                            <a href="appointment.html" class="program-btn">Start Program</a>
+                        </div>
+
+                        <div class="program-card">
+                            <div class="program-icon">
+                                <i class="fas fa-child-reaching"></i>
+                            </div>
+                            <h3>Flexibility Flow</h3>
+                            <p>Improve mobility, reduce injury risk, and enhance recovery with yoga and stretching programs.</p>
+                            <div class="program-price">
+                                <span class="price">$129</span>
+                            </div>
+                            <a href="appointment.html" class="program-btn">Start Program</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weight Loss Tab -->
+                <div class="tab-content" id="weightloss">
+                    <div class="programs-grid">
+                        <div class="program-card featured">
+                            <div class="program-badge success">98% Success</div>
+                            <div class="program-icon weight">
+                                <i class="fas fa-weight-scale"></i>
+                            </div>
+                            <h3>Fat Loss Accelerator</h3>
+                            <p>Science-backed fat loss combining calorie cycling, HIIT, and metabolic optimization.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check"></i> Custom macros</li>
+                                <li><i class="fas fa-check"></i> Weekly weigh-ins</li>
+                                <li><i class="fas fa-check"></i> Accountability</li>
+                            </ul>
+                            <div class="program-price">
+                                <span class="price">$229</span>
+                            </div>
+                            <a href="appointment.html" class="program-btn primary">Start Program</a>
+                        </div>
+                        <!-- More weight loss programs... -->
+                    </div>
+                </div>
+
+                <!-- Mental Wellness Tab -->
+                <div class="tab-content" id="mental">
+                    <div class="programs-grid">
+                        <div class="program-card featured">
+                            <div class="program-badge">Best Seller</div>
+                            <div class="program-icon mental">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>Mind Mastery</h3>
+                            <p>12-week mental resilience program with mindfulness, CBT techniques, and stress management.</p>
+                            <div class="program-price">
+                                <span class="price">$179</span>
+                            </div>
+                            <a href="appointment.html" class="program-btn primary">Start Program</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Holistic Tab -->
+                <div class="tab-content" id="holistic">
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <div class="program-icon holistic">
+                                <i class="fas fa-spa"></i>
+                            </div>
+                            <h3>Wellness Reset</h3>
+                            <p>Holistic detox and renewal combining yoga, nutrition cleanse, and energy work.</p>
+                            <div class="program-price">
+                                <span class="price">$199</span>
+                            </div>
+                            <a href="appointment.html" class="program-btn">Start Program</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+        <section class="programs-cta">
+            <div class="container">
+                <h2>Which program is right for you?</h2>
+                <p>Take our 2-minute assessment to find your perfect match</p>
+                <a href="appointment.html" class="cta-btn">Find My Program</a>
+            </div>
+        </section>
+    </main>
+
+ 
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="img/logo.png" alt="Logo">
+                    <p>12-week transformations that last a lifetime.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="programs.html#fitness">Fitness</a></li>
+                        <li><a href="programs.html#weightloss">Weight Loss</a></li>
+                        <li><a href="programs.html#mental">Mental Health</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eudaimon Foundry</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // SIDEBAR (same as before)
+        const hamburger = document.querySelector('.mobile-hamburger');
+        const sidebar = document.querySelector('.left-sidebar');
+        hamburger.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+            document.body.classList.toggle('sidebar-open');
+        });
+
+        // TABS FUNCTIONALITY
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const targetTab = btn.getAttribute('data-tab');
+                
+                // Update active tab button
+                tabBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                // Show target tab content
+                tabContents.forEach(content => content.classList.remove('active'));
+                document.getElementById(targetTab).classList.add('active');
+            });
+        });
+
+        // Active nav highlighting
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
